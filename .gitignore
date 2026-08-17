@@ -1,0 +1,12 @@
+# Rust build artifacts
+/target/
+
+# Operating-system and local-tool files
+.DS_Store
+.claude/
+
+# Private bank statements and generated transaction exports
+/data/statements/*
+!/data/statements/.gitkeep
+/data/output/*
+!/data/output/.gitkeep
